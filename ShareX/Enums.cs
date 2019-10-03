@@ -317,4 +317,11 @@ namespace ShareX
         ListView,
         ThumbnailView
     }
+
+    public enum UploadWarning
+    {
+        Never,
+        EveryUpload,
+        FirstUpload
+    }
 }
