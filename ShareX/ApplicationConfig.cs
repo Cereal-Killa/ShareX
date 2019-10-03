@@ -48,6 +48,13 @@ namespace ShareX
             this.ApplyDefaultPropertyValues();
         }
 
+        public enum UploadWarning
+        {
+            Never,
+            Always,
+            FirstUpload
+        }
+
         #region Main Form
 
         public TaskViewMode TaskViewMode = TaskViewMode.ThumbnailView;
